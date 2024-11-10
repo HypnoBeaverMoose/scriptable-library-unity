@@ -1,0 +1,36 @@
+{
+    "name": "com.hbm.scriptable",
+    "version": "1.0.0",
+    "displayName": "Scriptable Library",
+    "description": "A small library of scriptable objects, useful for rapid development and prototyping.",
+    "unity": "2019.1",
+    "unityRelease": "0f1",
+    "dependencies": {},
+    "keywords": [
+        "scriptable",
+        "ScriptableObject",
+        "variable",
+        "event"
+    ],
+    "author": {
+        "name": "Yasen Atanasov (HypnoBeaverMoose)",
+        "email": "y.atanansoff@gmail.com"
+    },
+    "samples": [
+        {
+            "displayName": "Events",
+            "description": "Shows how events work.",
+            "path": "Samples~/SamplesEvents"
+        },
+        {
+            "displayName": "Variables",
+            "description": "Shows how variables work.",
+            "path": "Samples~/SamplesVariables"
+        },
+        {
+            "displayName": "Registration",
+            "description": "An example of registering a game object.",
+            "path": "Samples~/SamplesRegistration"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "hbm.scriptable.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:43bd8bc42f731417794b2ec37879c759"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

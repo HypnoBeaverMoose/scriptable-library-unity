@@ -1,0 +1,1 @@
+A small library of scriptable objects, useful for rapid development and prototyping.
