@@ -9,6 +9,20 @@ namespace HBM.Scriptable
         [SerializeField] private T _constant;
         [SerializeField] private Variable<T> _variable;
 
-        public T value => _useConstant ? _constant : _variable.value;
+        public T value
+        {
+            get => _useConstant ? _constant : _variable.value;
+            set
+            {
+                if (_useConstant)
+                {
+                    _constant = value;
+                }
+                else
+                {
+                    _variable.value = value;
+                }
+            }
+        }
     }
 }
