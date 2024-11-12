@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace HBM.Scriptable
 {
-    [CreateAssetMenu(menuName = "Variables/Float")]
+    [CreateAssetMenu(menuName = "HBM/HBM/Variables/Float")]
     public class FloatVariable : Variable<float>
     {
     }

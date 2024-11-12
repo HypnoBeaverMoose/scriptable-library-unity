@@ -2,6 +2,6 @@ using UnityEngine;
 
 namespace HBM.Scriptable
 {
-    [CreateAssetMenu(menuName = "Events/String")]
+    [CreateAssetMenu(menuName = "HBM/Events/String")]
     public class StringEvent : TypedEvent<string> { }
 }

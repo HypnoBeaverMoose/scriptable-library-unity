@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace HBM.Scriptable
 {
-    [CreateAssetMenu(menuName = "Variables/GameObject")]
+    [CreateAssetMenu(menuName = "HBM/Variables/GameObject")]
     public class GameObjectVariable : Variable<GameObject>
     {
     }

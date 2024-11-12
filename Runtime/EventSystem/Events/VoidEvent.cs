@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace HBM.Scriptable
 {
-    [CreateAssetMenu(menuName = "Events/Void")]
+    [CreateAssetMenu(menuName = "HBM/Events/Void")]
     public class VoidEvent : ScriptableObject
     {
         private event System.Action _action;
