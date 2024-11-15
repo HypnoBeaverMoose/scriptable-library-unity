@@ -19,3 +19,6 @@ A small library of scriptable objects. Useful for better code organization, and 
 public class StringEvent : TypedEvent<string> { }
 ```
 
+### Install
+You can add this library easily to your project, by selecting "Install package from git URL" in the package manager and pasting https://github.com/HypnoBeaverMoose/ScriptableLibrary.git
+
